@@ -149,19 +149,53 @@ namespace Session_05
 
             //--------------------------------------------------- Part 05 ---------------------------------------------------
             #region StringBuilder
-            StringBuilder Message;
-            Message = new StringBuilder("Hello");
+            //StringBuilder Message;
+            //Message = new StringBuilder("Hello");
 
-            Console.WriteLine($"Message = {Message}");
-            Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
+            //Console.WriteLine($"Message = {Message}");
+            //Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
 
-            Message.Append(" Route");
+            //Message.Append(" Route");
 
 
-            Console.WriteLine("after change");
-            Console.WriteLine($"Message = {Message}");
-            Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
+            //Console.WriteLine("after change");
+            //Console.WriteLine($"Message = {Message}");
+            //Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
 
+            #endregion
+
+            //--------------------------------------------------- Part 06 ---------------------------------------------------
+            #region StringBuilder Methods
+
+            //StringBuilder Message = new StringBuilder("Hello");
+
+            //Message.Append(" Route");
+            //Console.WriteLine(Message);
+
+            //Message.AppendLine(" welcome");
+            //Console.WriteLine(Message);
+            //Message.Append("Mostafa");
+            //Console.WriteLine(Message);
+
+            //Message.Replace("Mostafa", "Ahmed");
+            //Console.WriteLine(Message);
+
+            ////Message.Clear();
+            ////Console.WriteLine(Message);
+
+            //Message.Remove(0, 5);
+            //Console.WriteLine(Message);
+
+            //Message.Insert(0, "Hi");
+            //Console.WriteLine(Message);
+
+
+            //int Age = 20;
+            //Message.AppendFormat(" your Age {0}", Age);
+            //Console.WriteLine(Message);
+
+            //Message.AppendJoin('_', "Mostafa", "Hany", "Mohamed");
+            //Console.WriteLine(Message);
             #endregion
 
         }
