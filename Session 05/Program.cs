@@ -72,7 +72,6 @@ namespace Session_05
 
             #endregion
 
-
             //--------------------------------------------------- Part 03 ---------------------------------------------------
             #region string
             #region Example 01
@@ -129,6 +128,21 @@ namespace Session_05
             //Console.WriteLine($"Message HashCode = {message.GetHashCode()}");
 
             #endregion
+
+            #endregion
+
+            //--------------------------------------------------- Part 04 ---------------------------------------------------
+            #region String Methods
+            //string message = " Hello Route "; // size => 17
+            //Console.WriteLine(message.Length); // 17
+            //Console.WriteLine(message.ToUpper()); // 17
+            //Console.WriteLine(message.ToLower()); // 17
+            //Console.WriteLine(message.Trim()); // 17
+            //Console.WriteLine(message.TrimEnd()); // 17
+            //Console.WriteLine(message.TrimStart()); // 17
+            //Console.WriteLine(message.Substring(4, 5)); // 17
+            //Console.WriteLine(message.Replace('e', 't')); // 17
+            //Console.WriteLine(message.Contains('f')); // 17
 
             #endregion
 
