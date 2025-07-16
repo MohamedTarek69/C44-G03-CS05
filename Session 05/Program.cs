@@ -1,4 +1,6 @@
-﻿namespace Session_05
+﻿using System.Security.Cryptography;
+
+namespace Session_05
 {
     internal class Program
     {
@@ -9,8 +11,8 @@
 
             #region for - foreach
 
-            // //                0  1  2  3  4
-            int[] Numbers = { 1, 2, 3, 4, 5 };
+            //                0  1  2  3  4
+            //int[] Numbers = { 1, 2, 3, 4, 5 };
 
             //Console.WriteLine($"Number 0 is {Numbers[0]}");
             //Console.WriteLine($"Number 1 is {Numbers[1]}");
@@ -34,7 +36,43 @@
 
             #endregion
 
+            //--------------------------------------------------- Part 02 ---------------------------------------------------
+            #region While - do while
+            //Console.Write("Enter a number : ");
+            //bool IsParse = int.TryParse(Console.ReadLine(), out int Number);
+            //// 2 - 10 
+            //// 5 - 10
+            //// 12
+            //if (IsParse == true)
+            //{
+            //    while (Number <= 10)
+            //    {
+            //        Console.WriteLine(Number);
+            //        Number++;
+            //    }
+            //}
+
+            //bool IsParse;
+            //int Number;
+            //do
+            //{
+            //    Console.Write("Enter Even Number : ");
+            //    IsParse = int.TryParse(Console.ReadLine(), out Number);
+
+            //} while (Number % 2 == 1 ||  !IsParse);
+
+            //Console.WriteLine($"{Number} is an Even Number");
+
+            //3 % 2 = 1 odd
+            //5 % 2 = 1 odd
+            //7 % 2 = 1 odd
+            //8 % 2 = 0 even
+
             #endregion
+
+            #endregion
+
+
         }
     }
 }
