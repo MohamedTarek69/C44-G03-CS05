@@ -73,6 +73,65 @@ namespace Session_05
             #endregion
 
 
+            //--------------------------------------------------- Part 03 ---------------------------------------------------
+            #region string
+            #region Example 01
+            //string Name;
+
+            //Name = new string("Route"); //10 bytes
+
+            //Console.WriteLine($"Name = {Name}");
+            //Console.WriteLine($"HashCode = {Name.GetHashCode()}");
+
+            //string Name02 = "Route";
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode02 = {Name02.GetHashCode()}");
+
+            #endregion
+
+            #region Example 02
+            //string Name01 = "Amr";
+            //string Name02 = "May";
+
+            //Console.WriteLine($"Name01 = {Name01}");
+            //Console.WriteLine($"HashCode01 = {Name01.GetHashCode()}");
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode02 = {Name02.GetHashCode()}");
+
+            //Name02 = Name01;
+            //Console.WriteLine("After Assign");
+            //Console.WriteLine($"Name01 = {Name01}");
+            //Console.WriteLine($"HashCode01 = {Name01.GetHashCode()}");
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode02 = {Name02.GetHashCode()}");
+
+            //Name01 = "Omar";
+            //Console.WriteLine("After change value of name01");
+            //Console.WriteLine($"Name01 = {Name01}");
+            //Console.WriteLine($"HashCode01 = {Name01.GetHashCode()}");
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode02 = {Name02.GetHashCode()}");
+
+            #endregion
+
+            #region Example 03
+            //string message = "Hello"; // 10 bytes
+            //Console.WriteLine($"Message = {message}");
+            //Console.WriteLine($"Message HashCode = {message.GetHashCode()}");
+
+            //message += " Route";
+            //Console.WriteLine("After Change");
+            //Console.WriteLine($"Message = {message}");
+            //Console.WriteLine($"Message HashCode = {message.GetHashCode()}");
+
+            #endregion
+
+            #endregion
+
         }
     }
 }
