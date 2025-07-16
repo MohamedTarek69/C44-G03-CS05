@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using System.Text;
 
 namespace Session_05
 {
@@ -143,6 +144,23 @@ namespace Session_05
             //Console.WriteLine(message.Substring(4, 5)); // 17
             //Console.WriteLine(message.Replace('e', 't')); // 17
             //Console.WriteLine(message.Contains('f')); // 17
+
+            #endregion
+
+            //--------------------------------------------------- Part 05 ---------------------------------------------------
+            #region StringBuilder
+            StringBuilder Message;
+            Message = new StringBuilder("Hello");
+
+            Console.WriteLine($"Message = {Message}");
+            Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
+
+            Message.Append(" Route");
+
+
+            Console.WriteLine("after change");
+            Console.WriteLine($"Message = {Message}");
+            Console.WriteLine($"Message HashCode = {Message.GetHashCode()}");
 
             #endregion
 
